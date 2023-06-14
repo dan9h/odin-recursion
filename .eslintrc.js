@@ -4,12 +4,10 @@ module.exports = {
     es2021: true,
     jest: true
   },
-  extends: 'standard',
-  overrides: [
-  ],
+  extends: ['standard', 'prettier'],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest'
   },
-  rules: {
-  }
+  rules: {}
 }

@@ -1,4 +1,4 @@
-function fibs (n) {
+function fibs(n) {
   if (n < 1) return []
   if (n === 1) return [0]
 
@@ -6,7 +6,7 @@ function fibs (n) {
   let [a, b] = sequence
 
   while (sequence.length < n) {
-    [a, b] = [b, a + b]
+    ;[a, b] = [b, a + b]
     sequence.push(b)
   }
 
